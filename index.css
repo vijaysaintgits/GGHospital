@@ -1,0 +1,240 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(220, 220, 220, 0.733);
+}
+.head-container{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    max-height:min-content
+}
+
+
+.active{
+    color: red;
+}
+#logo{
+    height: 60px;
+}
+.logo-div{
+    flex : 1;
+}
+.middle{
+    flex : 1
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.topnav{
+    flex : 5;
+    padding: 20px;
+    margin-right: -400px;
+}
+.top-header{
+    position: relative;
+}
+.text1
+{
+    position: absolute;
+    top: 20%;
+    letter-spacing: 5px;
+    font-size: larger;
+    margin-left: 122px;
+}
+.text1 p{
+    letter-spacing: 0;
+}
+.form{
+    position: absolute;
+    width: 80%;
+    top:80%;
+    left: 10%;
+    border-radius: 10px;
+    background-color: white;
+    border-color: black;
+    border-style:hidden;
+}
+.line1{
+    display: flex;
+    width: 100%;
+}
+.single{
+    flex: 1;
+}
+input{
+    width: 250px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+}
+select{
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.button1{
+    position: absolute;
+    margin-left: 100px;
+    top: 60%;
+}
+#button1{
+    width: 260px;
+    height: 40px;
+    margin: 20px;
+    color: white;
+    border-radius: 5%;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: #17C1A3;
+}
+.play{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+.play2{
+    position: absolute;
+    top: 66%;
+    left:38%
+}
+.next{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.overall{
+    display: flex;
+    width: 95%;
+    margin-left: 50px;
+}
+.column{
+    flex: 1;
+}
+.ops{
+    width: 350px;
+}
+.column a{
+    text-decoration: underline;
+    color: #17C1A3;
+}
+.middle{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 17%;
+    left: 85%;
+}
+.specialist p,h2{
+    text-align: center;
+}
+.photos{
+    display: flex ;
+    width: 90%;
+    margin-left: 5%;
+}
+.photo1{
+    flex: 1;
+}
+.photo1 img{
+    width: 250px;
+}
+.photo2{
+    flex: 1;
+}
+.photo2 img{
+    width: 350px;
+}
+.middle2{
+    margin-top: 20%;
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #E8F9F6;
+}
+.m1{
+    flex: 2;
+}
+.m1 img{
+    width: 100%;
+}
+.m2{
+    margin-top: 10%;
+    flex: 1;
+}
+.m2 p{
+    padding-top: -10px;
+    display: inline-block;
+}
+.m2 img{
+    padding-top: -10px;
+}
+.facilites{
+    position: relative;
+}
+.arrow1{
+    position: absolute;
+    left: 83%;
+    margin-top: -295px;
+}
+.arrow2{
+    position: absolute;
+    left: 83%;
+    margin-top: -380px;
+}
+.back{
+    background-color: #EAF2FF;
+    margin-top: -250px;
+    padding-bottom: 200px;
+}
+.final1{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 10%;
+    font-weight: 100;
+    font-size: small;
+}
+.lastimg{
+    width: 80%;
+}
+.top{
+    display: flex;
+}
+.x{
+    flex: 1;
+}
+.final2{
+    
+    margin-left: 0%;
+    font-weight: 100;
+    font-size: small;
+}
+.final2 .x{
+    padding: 10px;
+}
+.final2 p{
+    display: inline-block;
+}
+.x1{
+    flex: 1;
+    display: flex;
+}
+.x11{
+    flex: 1;
+    height: fit-content;
+    margin-top: 20px;
+}
+.x2{
+    flex: 9;
+}
